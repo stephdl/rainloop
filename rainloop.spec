@@ -6,6 +6,7 @@ License:        AGPLv3+
 Group:          Networking/WWW
 URL:            http://rainloop.net
 Source0:        https://github.com/Rainloop/rainloop-webmail/releases/download/v%{version}/%{name}-community-%{version}.zip
+Requires:       httpd
 Requires:	    php
 Requires:       php-mysql
 BuildArch:      noarch
