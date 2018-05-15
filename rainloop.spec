@@ -9,6 +9,7 @@ Source0:        https://github.com/Rainloop/rainloop-webmail/releases/download/v
 Requires:       httpd
 Requires:	    php
 Requires:       php-mysql
+Requires:       php-ldap
 BuildArch:      noarch
 
 %description
