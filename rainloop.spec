@@ -1,5 +1,5 @@
 Name:           rainloop
-Version:        1.13.0
+Version:        1.14.0
 Release:        1%{?dist}
 Summary:        Simple, modern & fast web-based email client.
 License:        AGPLv3+
@@ -63,6 +63,12 @@ EOF
 /sbin/service httpd condrestart > /dev/null 2>&1 || :
 
 %changelog
+* Wed Apr 01 2020 stephane de labrusse <stephdl@de-labrusse.fr> 1.14.0-el7
+- upstream upgrade
+
+* Tue Oct 01 2019 stephane de labrusse <stephdl@de-labrusse.fr> 1.13.0-el7
+- upstream upgrade
+
 * Sun Sep 02 2018 stephane de labrusse <stephdl@de-labrusse.fr> 1.12.1-el7
 - upstream upgrade
 
