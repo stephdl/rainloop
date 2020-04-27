@@ -71,7 +71,7 @@ fi
 /sbin/service httpd condrestart > /dev/null 2>&1 || :
 
 %changelog
-* Mon 27 2020 Glen Johnson <gsfjohnson@gmail.com> 1.14.0-el7
+* Mon Apr 27 2020 Glen Johnson <gsfjohnson@gmail.com> 1.14.0-el7
 - SElinux support
 - Bump version to 1.14.0
 
